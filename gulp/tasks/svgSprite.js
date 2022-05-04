@@ -11,11 +11,11 @@ export const createSvgSprite = () => {
         .pipe(svgSprite({
             mode: {
                 stack: {
-                    sprite: `../icons/svg-sprite.svg`,
+                    sprite: `../svgicons/sprite/svg-sprite.svg`,
                     // Створювати сторінку зі списком іконок
                     example: false
                 }
             }
         }))
-        .pipe(app.gulp.dest(app.path.build.images)) // вигрузити svg-спрайт в папку з результатом
+        .pipe(app.gulp.dest(`${app.path.srcFolder}/img/`)) // вигрузити папку з svg-спрайтом в папку src/img - вихідні файли
 }
