@@ -104,4 +104,4 @@ dist
 .tern-port
 
 package-lock.json
-./gulp/version.json
+gulp/version.json
