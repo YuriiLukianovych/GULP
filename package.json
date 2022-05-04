@@ -9,6 +9,7 @@
     "build": "gulp build --build",
     "zip": "gulp deployZIP --build",
     "deploy": "gulp deployFTP --build",
+    "gh-pages": "gulp deployGHpages --build",
     "sprite": "gulp createSvgSprite"
   },
   "author": "Yurii Lukianovych",
@@ -21,6 +22,7 @@
     "gulp-clean-css": "latest",
     "gulp-file-include": "latest",
     "gulp-fonter": "latest",
+    "gulp-gh-pages": "latest",
     "gulp-group-css-media-queries": "latest",
     "gulp-if": "latest",
     "gulp-imagemin": "latest",
