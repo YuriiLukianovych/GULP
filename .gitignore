@@ -105,4 +105,4 @@ dist
 
 package-lock.json
 gulp/version.json
-.zip
+*.zip
