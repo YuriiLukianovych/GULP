@@ -27,7 +27,7 @@ import { otfToTtf, ttfToWoff, fontsStyle } from './gulp/tasks/fonts.js';
 import { createSvgSprite } from './gulp/tasks/svgSprite.js';
 import { zip } from './gulp/tasks/zip.js';
 import { ftp } from './gulp/tasks/ftp.js';
-import { ghPages } from './gulp/tasks/gh-pages.js';
+import { ghpages } from './gulp/tasks/gh-pages.js';
 
 // Watcher - спостерігач за змінами у файлах
 function watcher() {
@@ -48,7 +48,7 @@ const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server))
 const build = gulp.series(reset, mainTasks);
 const deployZIP = gulp.series(reset, mainTasks, zip);
 const deployFTP = gulp.series(reset, mainTasks, ftp);
-const deployGHpages = gulp.series(reset, mainTasks, ghPages);
+const deployGHpages = gulp.series(reset, mainTasks, ghpages);
 
 // Експорт сценаріїв
 export { dev }
