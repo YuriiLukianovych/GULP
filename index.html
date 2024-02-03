@@ -1,23 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220504182842">
-    <title>Головна сторінка</title>
+    <title>Bag Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap&_v=20240203233846" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css?_v=20240203233846"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20240203233846">
 </head>
+
 <body>
     <header class="header">
-    header
-</header>
+        <div class="container">
+            <a href="/" class="logo header__logo">
+                <img src="img/logo.png" alt="logo image">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-list-item">
+                        <a href="" class="header__nav-link active">Home</a>
+                    </li>
+                    <li class="header__nav-list-item">
+                        <a href="" class="header__nav-link">Feature</a>
+                    </li>
+                    <li class="header__nav-list-item">
+                        <a href="" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-list-item">
+                        <a href="" class="header__nav-link">Product</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn header__btn" type="button">Shop Now</button>
+        </div>
+    </header>
     <main>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, vitae rerum. Eum similique pariatur quasi id ipsam ab odio. Molestiae dolore qui porro quasi? Voluptatibus!</span>
-        <img src="img/planet.jpg" alt="">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__content">
+                        <h3 class="hero__subtitle">Look Stylish Be Stylish.</h3>
+                        <h1 class="hero__title">Look Stylish Be <span>Stylish.</span></h1>
+                        <p class="hero__text">Before starting this business you should have ideas about the market and
+                            products to Compete with the Existing
+                            Businesses.</p>
+                        <button class="btn hero__btn" type="button">join shop</button>
+
+                        <div class="hero__image">
+                            <p class="hero__image-txt">
+                                <span>30%</span>
+                                <span>OFF</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="detail section">
+            <div class="container">
+                <div class="detail__content">
+                    <div class="detail__left">
+                        <img class="detail__img-01" src="img/detail-01.png" alt="bag image 01">
+                        <img class="detail__img-02" src="img/detail-02.png" alt="bag image 02">
+                        <img class="detail__img-03" src="img/detail-03.png" alt="bag image 03">
+                    </div>
+                    <div class="detail__right">
+                        <h3 class="detail__subtitle subtitle">Creative bag only for you.</h3>
+                        <h2 class="detail__title title">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+                            eiusmod.</h2>
+                        <p class="detail__txt txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam.</p>
+                        <button class="detail__btn btn" type="button">see more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products section">
+            <div class="container">
+                <div class="products__contents">
+                    <h2 class="products__title title">our available product</h2>
+                    <p class="products__txt txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore.</p>
+                    <ul class="products__list">
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/01.png" alt="product image 01">
+                        </li>
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/02.png" alt="product image 02">
+                        </li>
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/03.png" alt="product image 03">
+                        </li>
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/04.png" alt="product image 04">
+                        </li>
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/05.png" alt="product image 05">
+                        </li>
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/06.png" alt="product image 06">
+                        </li>
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/07.png" alt="product image 07">
+                        </li>
+                        <li class="products__list-item">
+                            <img class="products__list-image" src="img/products/08.png" alt="product image 08">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us section">
+            <div class="container">
+                <div class="contact-us__content">
+                    <div class="contact-us__left">
+                        <img src="img/contact-image.png" alt="boy with our bag">
+                        <div class="contact-us__overlay"></div>
+                    </div>
+                    <div class="contact-us__right">
+                        <form class="contact-us__form form" autocomplete="off">
+                            <h2 class="form__title">Lorem ipsum dolor sit amet consectetur.</h2>
+                            <div class="form__row double">
+                                <input class="form__input" type="text" name="name" placeholder="Name"
+                                    autocomplete="off">
+                                <input class="form__input" type="text" name="phone" placeholder="Phone"
+                                    autocomplete="off">
+                            </div>
+                            <div class="form__row">
+                                <textarea class="form__textarea" placeholder="Your message..."></textarea>
+                            </div>
+                            <div class="form__row double">
+                                <input class="form__checkbox visually-hidden" type="checkbox" name="licence"
+                                    id="licence">
+                                <label class="form__label-checkbox" for="licence">
+                                    <div class="checkbox">
+                                        <div class="check"></div>
+                                    </div>
+                                    <p class="txt">Lorem ipsum dolor sit amet.</p>
+                                </label>
+                                <button class="form__btn btn" type="submit">Join Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="companies section">
+            <div class="container">
+                <div class="companies__content">
+                    <ul class="companies__list">
+                        <li class="companies__list-item">
+                            <img class="companies__img" src="img/companies/01.png" alt="company logo 01">
+                        </li>
+                        <li class="companies__list-item">
+                            <img class="companies__img" src="img/companies/02.png" alt="company logo 02">
+                        </li>
+                        <li class="companies__list-item">
+                            <img class="companies__img" src="img/companies/03.png" alt="company logo 03">
+                        </li>
+                        <li class="companies__list-item">
+                            <img class="companies__img" src="img/companies/04.png" alt="company logo 04">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-    <img src="img/201-pered_burey-original.jpg" alt="">
-</footer>
-<script src="js/app.min.js?_v=20220504182842"></script>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="/" class="logo footer__logo">
+                        <img src="img/logo.png" alt="logo image">
+                    </a>
+                    <p class="footer__txt txt">Lorem ipsum dolor sit amet consectetur adipiscing
+                        sed do eiusmod.</p>
+                </div>
+                <div class="footer__categories">
+                    <h4 class="footer__title">special catagories</h4>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="" class="footer__link">water resistant</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__link">charging system</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__link">artificial leather</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__contacts">
+                    <h4 class="footer__title">contact us</h4>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="" class="footer__link">(808) 555-0111</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__link">michelle.rivera@example.com</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__link">http://www.codehow.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__news">
+                    <h4 class="footer__title">contact us</h4>
+                    <form class="footer__form form">
+                        <div class="form__row">
+                            <input class="form__input" type="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form__row">
+                            <button class="form__btn btn" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.min.js?_v=20240203233846"></script>
 </body>
+
 </html>
