@@ -1,4 +1,4 @@
-.header{
+.header {
     height: 100px;
     background-color: #cdcdcd;
     border: 5px solid tomato;
@@ -12,8 +12,8 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url('@img/svg/calendar.svg');
+    background-image: url("@img/svg/calendar.svg");
     background-size: 40px 40px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left 20px center;
 }
